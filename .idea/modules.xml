@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zjlog4j.iml" filepath="$PROJECT_DIR$/zjlog4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zjlog4j-api/zjlog4j-api.iml" filepath="$PROJECT_DIR$/zjlog4j-api/zjlog4j-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zjlog4j-biz/zjlog4j-biz.iml" filepath="$PROJECT_DIR$/zjlog4j-biz/zjlog4j-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zjlog4j-mq/zjlog4j-mq.iml" filepath="$PROJECT_DIR$/zjlog4j-mq/zjlog4j-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zjlog4j-service/zjlog4j-service.iml" filepath="$PROJECT_DIR$/zjlog4j-service/zjlog4j-service.iml" />
+    </modules>
+  </component>
+</project>
