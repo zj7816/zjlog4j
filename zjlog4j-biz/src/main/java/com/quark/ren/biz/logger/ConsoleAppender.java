@@ -1,0 +1,1 @@
+/** *dianping.com Inc *Copyright(c)2004-2016 All Rights Reserved. */package com.quark.ren.biz.logger;import com.quark.ren.api.LogEvent;/** * @author zhangjie * @version $Id: ConsoleAppender.java, v 0.1 2016-08-30 下午7:52 zhangjie Exp $$ */public class ConsoleAppender extends AppenderSkeleton {    @Override    public void append(LogEvent event) {    }}

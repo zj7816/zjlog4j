@@ -1,0 +1,1 @@
+/** *dianping.com Inc *Copyright(c)2004-2016 All Rights Reserved. */package com.quark.ren.biz.logger;import com.quark.ren.api.Appender;/** * @author zhangjie * @version $Id: AbstractAppender.java, v 0.1 2016-08-30 下午7:52 zhangjie Exp $$ */public abstract class AppenderSkeleton implements Appender{}

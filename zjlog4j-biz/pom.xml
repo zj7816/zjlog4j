@@ -20,46 +20,6 @@
             <artifactId>zjlog4j-api</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.dianping.dpsf</groupId>
-            <artifactId>dpsf-net</artifactId>
-            <version>2.7.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.dianping.lion</groupId>
-            <artifactId>lion-client</artifactId>
-            <version>0.5.8</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.dianping.swallow</groupId>
-            <artifactId>swallow-common</artifactId>
-            <version>0.8.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.dianping.platform</groupId>
-            <artifactId>platform-sdk</artifactId>
-            <version>1.2.8</version>
-        </dependency>
-
-        <!--<dependency>-->
-            <!--<groupId>com.dianping</groupId>-->
-            <!--<artifactId>avatar-cache</artifactId>-->
-            <!--<version>2.8.4</version>-->
-        <!--</dependency>-->
-
-        <dependency>
-            <groupId>com.dianping.swallow</groupId>
-            <artifactId>swallow-producerclient</artifactId>
-            <version>0.8.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-        </dependency>
 
         <!-- Test -->
         <dependency>

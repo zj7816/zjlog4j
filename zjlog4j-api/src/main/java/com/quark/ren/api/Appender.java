@@ -1,0 +1,1 @@
+/** *dianping.com Inc *Copyright(c)2004-2016 All Rights Reserved. */package com.quark.ren.api;/** * actual looging action occurs in the implementation of this interface * * @author zhangjie * @version $Id: Append.java, v 0.1 2016-08-30 下午7:32 zhangjie Exp $$ */public interface Appender {    /**     *     * @param event     */    void append(LogEvent event);}
