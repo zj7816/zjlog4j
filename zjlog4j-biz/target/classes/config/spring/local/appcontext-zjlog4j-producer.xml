@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean id="producerFactory" class="com.dianping.swallow.producer.impl.ProducerFactoryImpl"
+          factory-method="getInstance"/>
+
+    <bean id="producerConfig" class="com.dianping.swallow.producer.ProducerConfig">
+        <property name="mode" value="ASYNC_MODE"/>
+    </bean>
+
+    <!--目的地 -->
+    <bean id="destination" class="com.dianping.swallow.common.message.Destination"
+          factory-method="topic">
+        <!--topic-->
+        <constructor-arg value="cip_qualitydiscount_event"/>
+    </bean>
+
+    <bean id="producerClient" factory-bean="producerFactory" factory-method="createProducer">
+        <constructor-arg>
+            <ref bean="destination"/>
+        </constructor-arg>
+        <constructor-arg>
+            <ref bean="producerConfig"/>
+        </constructor-arg>
+    </bean>
+
+</beans>

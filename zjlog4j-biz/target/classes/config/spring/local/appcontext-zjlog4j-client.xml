@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+       <!--<bean id="stockService" class="com.dianping.dpsf.spring.ProxyBeanFactory" init-method="init">-->
+              <!--<property name="serviceName" value="http://service.dianping.com/stockService/stockService_1.0.0" />-->
+              <!--<property name="iface" value="com.dianping.opplatform.prize.api.service.component.StockService" />-->
+              <!--<property name="serialize" value="hessian" />-->
+              <!--<property name="callMethod" value="sync" />-->
+              <!--<property name="timeout" value="3000" />-->
+       <!--</bean>-->
+
+
+
+</beans>
