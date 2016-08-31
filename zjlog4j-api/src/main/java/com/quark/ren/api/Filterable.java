@@ -1,0 +1,1 @@
+/** *dianping.com Inc *Copyright(c)2004-2016 All Rights Reserved. */package com.quark.ren.api;/** * @author zhangjie * @version $Id: Filterable.java, v 0.1 2016-08-31 上午10:10 zhangjie Exp $$ */public interface Filterable {    void addFilter(Filter filter);    void removeFilter(Filter filter);    Filter getFilter();}
